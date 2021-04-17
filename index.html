@@ -7,18 +7,18 @@
   <title>BizBootstrap | Home</title>
   <link rel='shortcut icon' href='images/favicon.png' type='image/x-icon'>
   <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body id="home">
 
   <!-- === header section start === -->
-  <header>
+  <header class="header">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="img-fluid"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html"><img src="images/logo_white.png" alt="logo" class="img-fluid"></a>
+        <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -26,6 +26,9 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Templates</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -37,8 +40,6 @@
               <a class="nav-link" href="#">FAQ’s</a>
             </li>
           </ul>
-          <button class="btn btn-lg btn-primary-light ml-lg-3 mr-3" type="submit">Sign In</button>
-          <button class="btn btn-lg btn-primary" type="submit">Sign Up</button>
         </div>
       </nav>
     </div>
@@ -47,271 +48,119 @@
  
 
   <!-- === banner section start === -->
-  <section class="banner position-relative">
+  <section class="banner">
     <div class="container">
-      <div class="row">
-        <div class="col-md-7 bg-white pr-md-5">
-          <h1>Excellence, Guaranteed.</h1>
-          <h6>Having a brilliant idea requires a visionary engine to bring it to life</h6>
-          <p>
-            At BizBootstrap, we take the guesswork out of mapping and taking those first steps. Our business start-up package sets up all the essentials you will need to bring your vision to life quickly and professionally.
-          </p>
-          <a href="#" class="btn btn-lg btn-primary px-4">See Packages</a>
-        </div>
+      <div class="banner-content">
+        <h1>Grow Your Business Online</h1>
+        <p>Turn your ideasinto reality</p>
+        <a href="#" class="btn btn-primary mt-5">Get Started</a>
       </div>
     </div>
   </section>
   <!-- ===//end of banner section === -->
  
 
-  <!-- === About section start === -->
-  <section class="about">
+  <!-- === industry-leading section start === -->
+  <section class="industry-leading">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 order-lg-1 order-2">
-          <div class="text">
-            <h2 class="section-heading mb-4 start">Start</h2>
-            <p>
-              When starting an enterprise, the focus is usually the product or service you are providing. We are often so busy doing what is obvious that sometimes essential business processes receive minimal attention.
-              <br><br>
-              At BizBootstrap, we ensure that your service or product will come with the operational attributes expected by your prospective clients. Not only do we set-up the essentials, but we also give your new business the gloss of professionalism consumers expect.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6 order-lg-2 order-1">
-          <div class="image text-center mb-lg-0 mb-4">
-            <img src="images/steps.png" alt="steps" class="img-fluid">
-          </div>
+        <div class="col-lg-9">
+          <h2 class="section-heading">Industry Leading</h2>
+          <p class="section-heading-para mb-5">Select from any of our industry-leading website templates, designer fonts, and color palettes to best fit your personal style and professional needs.</p>
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="image text-center mb-lg-0 mb-4">
-              <img src="images/communicate.png" alt="communicate" class="img-fluid">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="text">
-              <h2 class="section-heading mb-4 communicate">Communicate</h2>
-              <p>
-                With BizBootstrap, you get a choice of customisable websites that will give you an instant web presence that inspires confidence in your enterprise. We use best-practice design language to communicate your intentions efficiently to the customer. We utilise communications forms and maps so that your prospective customers can find out and enquire about your product and service.
-                <br><br>
-                By ensuring that your business is always accessible, you build trust between you and your customers. BizBootstrap sets up your geographic telephone number and answering service so that your customers always get a professional voice when they need to get in touch.
-              </p>
-            </div>
-          </div>
+    <div class="container-fluid px-0">
+      <div class="industry-leading-slider">
+        <div class="col slide-item">
+          <a href="#"><img src="images/home/industry_leading_slide/image_2.png" alt="image" class="img-fluid"></a>
+        </div>
+        <div class="col slide-item">
+          <a href="#"><img src="images/home/industry_leading_slide/image_1.png" alt="image" class="img-fluid"></a>
+        </div>
+        <div class="col slide-item">
+          <a href="#"><img src="images/home/industry_leading_slide/image_3.png" alt="image" class="img-fluid"></a>
+        </div>
+        <div class="col slide-item">
+          <a href="#"><img src="images/home/industry_leading_slide/image_3.png" alt="image" class="img-fluid"></a>
         </div>
       </div>
     </div>
-    <div class="container">
+  </section>
+  <!-- ===//end of industry-leading section === -->
+ 
+
+  <!-- === template section start === -->
+  <section class="template">
+    <div class="container text-center">
+      <h2 class="section-heading text-white">Endless Templates Ready!</h2>
+      <h3 class="section-sub-heading text-white">Web, Mobile & Tablets Friendly</h3>
+
+      <img src="images/home/responsive_devices.png" alt="template" class="img-fluid">
+
+      <a href="#" class="btn btn-outline-secondary">Get Started</a>
+    </div>
+  </section>
+  <!-- ===//end of template section === -->
+
+  <!-- === catch-the-match section start === -->
+  <section class="catch-the-match">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 order-lg-1 order-2">
+        <div class="col-xl-4 col-lg-6 offset-xl-2 offset-lg-0">
           <div class="text">
-            <h2 class="section-heading mb-4 deliver">Deliver</h2>
-            <p>
-              With BizBootstrap, you can rest assured that you will get off on the right foot. By utilising our start-up service, you are a step ahead when it comes to looking the part, and this leaves you the capacity to focus on delivering your products and services.
-            </p>
+            <h2 class="section-heading">Catch The Match, <br> Choose Your </h2>
+            <p class="section-heading-para">Select from any of our industry-leading website templates, designer fonts, and color palettes to best fit your personal style and professional needs.</p>
+            <a href="#" class="btn btn-primary">Get Started</a>
           </div>
         </div>
-        <div class="col-lg-6 order-lg-2 order-1">
-          <div class="image text-center mb-lg-0 mb-4">
-            <img src="images/rocket_launch.png" alt="rocket_launch" class="img-fluid deliver-img">
-          </div>
+        <div class="col-lg-6 pr-0">
+          <img src="images/home/catch_the_match2.png" alt="image" class="w-100">
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="image text-center mb-lg-0 mb-4">
-              <img src="images/progress.png" alt="progress" class="img-fluid thrive-img">
-            </div>
+  </section>
+  <!-- ===//end of catch-the-match section === -->
+
+  <!-- === testimonial section start === -->
+  <section class="testimonial">
+    <div class="container">
+      <div class="heading text-center">
+        <h2 class="section-heading text-white">What Our Customer Says?</h2>
+        <h3 class="section-sub-heading text-white">customers who are turning their dreams into a reality.</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 position-relative">
+          <div class="img-box">
+            <img src="images/home/testimonial-slide.png" alt="test" class="img-fluid">
           </div>
-          <div class="col-lg-6">
-            <div class="text">
-              <h2 class="section-heading thrive mb-4">Thrive</h2>
-              <p>
-                With our continued support, you can upscale your requirements, from simple web-presence website to a fully encapsulated eCommerce offering. We provide online marketing services and tools to help you decipher and utilise analytics and behavioural data to drive growth in your business.
-              </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="testi-comment-slider">
+            <div class="text slider-item">
+              <h4>Website Name</h4>
+              <p class="comment">At BizBootstrap, we take the guesswork out of mapping and taking those first steps. Our business start-up package sets up all the essentials.</p>
+              <p class="author">- A.R. Pedraza (CEO)</p>
+            </div>
+            <div class="text slider-item">
+              <h4>Website Name</h4>
+              <p class="comment">At BizBootstrap, we take the guesswork out of mapping and taking those first steps. Our business start-up package sets up all the essentials.</p>
+              <p class="author">- A.R. Pedraza (CEO)</p>
+            </div>
+            <div class="text slider-item">
+              <h4>Website Name</h4>
+              <p class="comment">At BizBootstrap, we take the guesswork out of mapping and taking those first steps. Our business start-up package sets up all the essentials.</p>
+              <p class="author">- A.R. Pedraza (CEO)</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- ===//end of About section === -->
- 
+  <!-- ===//end of testimonial section === -->
 
-  <!-- === Packages section start === -->
-  <section class="packages">
-    <div class="container">
-      <h2 class="section-heading text-center">Packages</h2>
-      <div class="row">
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item">
-            <div class="package-header text-center">
-              <h4 class="package-name">Basic</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">39</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 5 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to five addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item">
-            <div class="package-header text-center">
-              <h4 class="package-name">Standard</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">59</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 10 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to ten addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                2 dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                SEO implementation for your new website
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item active">
-            <div class="package-header text-center">
-              <div class="badge badge-success">Recommended</div>
-              <h4 class="package-name">Premium</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">99</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 25 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to five addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                SEO implementation for your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Connect Social media accounts to your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Google Analytics setup on your website to track visitor activity
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                *Professional call answering service with the first month free
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 px-lg-0 mb-4">
-          <div class="package-item">
-            <div class="package-header text-center">
-              <h4 class="package-name">Full</h4>
-              <div class="price"> <span class="currency-symbol">€</span> <span class="main-price">129</span>/mo</div>
-            </div>
-            <ul>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional website with up to 25 pages
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Professional email address with up to five addresses
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Dedicated geographic number
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                UK correspondence address which serves as a business address
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                SEO implementation for your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Connect Social media accounts to your new website
-              </li>
-              <li class="d-flex">
-                <i class="far fa-check-circle"></i>
-                Google Analytics setup on your website to track visitor activity
-              </li>
-            </ul>
-            <div class="package-footer text-center">
-              <a href="package_details.html" class="btn btn-lg btn-outline-secondary">Buy Now</a>
-              <a href="#" class="more-link d-block">Know More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ===//end of Packages section === -->
- 
-
-  <!-- === faq section start === -->
-  <section class="faq bg-light">
+   <!-- === faq section start === -->
+   <section class="faq">
     <div class="container">
       <h2 class="section-heading text-center mb-5">FAQ's</h2>
       <div id="accordion">
@@ -415,10 +264,52 @@
           </div>
         </div>
       </div>
+
+      <div class="text-center mt-5">
+        <a href="#" class="btn btn-outline-primary">Get Started</a>
+      </div>
     </div>
   </section>
   <!-- ===//end of faq section === -->
- 
+
+  <!-- === gallery section start === -->
+  <section class="gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 px-0">
+          <div class="gallery-item gallery-item-lg">
+            <img src="images/home/gallery/image_1.png" alt="gallery-image" class="w-100">
+            <div class="overlay">
+              <h2>Explore how <br> customers useour platform.</h2>
+              <a href="#" class="btn btn-outline-secondary">Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 px-0">
+          <div class="gallery-item ">
+            <img src="images/home/gallery/image_2.png" alt="gallery-image" class="w-100">
+            <div class="overlay">
+              <h2>Save time with <br> pre-ready templates.</h2>
+              <a href="#" class="btn btn-outline-secondary">Explore Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-0">
+          <div class="gallery-item">
+            <img src="images/home/gallery/image_3.png" alt="gallery-image" class="w-100">
+            <div class="overlay">
+              <h2>Turn your dream into <br> real business.</h2>
+              <a href="#" class="btn btn-outline-secondary">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===//end of gallery section === -->
+
+
 
   <!-- === contact section start === -->
   <section class="contact">
@@ -524,6 +415,7 @@
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/custom.js"></script>
 </body>
 </html>

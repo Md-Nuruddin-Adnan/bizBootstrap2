@@ -56,9 +56,9 @@
     }
 
     .section-heading {
-      margin-bottom: 100px;
+      margin-bottom: 100px!important;
       @media(max-width: 575px){
-        margin-bottom: 80px;
+        margin-bottom: 80px !important;
       }
     }
 
