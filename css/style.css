@@ -383,7 +383,7 @@ body {
 
 /* ===//end of contact section === */
 /*===// end of common section === */
-/*=== home section start === */
+/*=== pages start === */
 #home {
   /* slider part start */
 }
@@ -696,8 +696,6 @@ body {
   }
 }
 
-/*===// end of home section === */
-/*=== contact-page section start === */
 #contact-page .contact-banner {
   padding: 120px 0 260px 0;
   background: url(../images/contact_banner.png) no-repeat center center/cover;
@@ -791,7 +789,117 @@ body {
   color: #3e4d64;
 }
 
-/*===// end of contact-page section === */
+#resources-page .resources-banner {
+  padding: 120px 0 260px 0;
+  background: url(../images/resources/resource_banner.png) no-repeat bottom center/cover;
+}
+
+#resources-page .resources-banner h1 {
+  font-family: 'Metropolis-Bold';
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+#resources-page .resources-single {
+  margin-top: -115px;
+}
+
+#resources-page .resources-single .card {
+  box-shadow: 3px 0 31px rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#resources-page .resources-single .card .card-body {
+  padding: 10px;
+}
+
+#resources-page .resources-single .card .card-body .main-img img {
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  #resources-page .resources-single .card .card-body .main-img img {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+
+#resources-page .resources-single .card .card-body .text {
+  padding: 0 0 0 15px;
+}
+
+#resources-page .resources-single .card .card-body .text p {
+  font-family: 'Metropolis-Medium';
+  font-size: 14px;
+  color: #7087ff;
+}
+
+#resources-page .resources-single .card .card-body .text h3 {
+  font-family: 'Metropolis-Bold';
+  font-size: 20px;
+  color: #333;
+  padding: 10px 0 60px 0;
+}
+
+#resources-page .resources-single .card .card-body .text a span {
+  font-family: 'Metropolis-Bold';
+  font-size: 14px;
+  color: #7087ff;
+  padding-left: 5px;
+}
+
+#resources-page .resources-single .card .card-body .text a i {
+  transform: rotate(90deg);
+  font-size: 16px;
+}
+
+#resources-page .resources-all {
+  padding: 80px 0;
+  background: url(../images/resources/bg-capsul.png) no-repeat center center/cover;
+}
+
+#resources-page .resources-all .card {
+  box-shadow: 3px 0 31px rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#resources-page .resources-all .card .main-img img {
+  border-radius: 10px;
+}
+
+#resources-page .resources-all .card .card-body .text p {
+  font-family: 'Metropolis-Medium';
+  font-size: 14px;
+  color: #7087ff;
+}
+
+#resources-page .resources-all .card .card-body .text h3 {
+  font-family: 'Metropolis-Bold';
+  font-size: 18px;
+  color: #333;
+  padding: 5px 0 40px 0;
+}
+
+#resources-page .resources-all .card .card-body .text a span {
+  font-family: 'Metropolis-Bold';
+  font-size: 14px;
+  color: #7087ff;
+  padding-left: 5px;
+}
+
+#resources-page .resources-all .card .card-body .text a i {
+  transform: rotate(90deg);
+  font-size: 16px;
+}
+
+/*===// end of pages === */
 /*=== footer section start === */
 .footer {
   background-image: linear-gradient(132deg, #f9ffff 0%, #f5f9ff 100%);

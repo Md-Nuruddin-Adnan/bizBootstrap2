@@ -1,0 +1,116 @@
+#resources-page{
+  .resources-banner{
+    padding: 120px 0 260px 0;
+    background: url(../images/resources/resource_banner.png) no-repeat bottom center/cover;
+
+    h1{
+      font-family: 'Metropolis-Bold';
+      font-size: 50px;
+      color: $color-white;
+      text-align: center;
+    }
+  }
+
+  .resources-single {
+    margin-top: -115px;
+    .card{
+      box-shadow: 3px 0 31px rgba(0,0,0, .10);
+      border-color: transparent;
+      border-radius: 10px;
+      overflow: hidden;
+
+      .card-body{
+        padding: 10px;
+
+        .main-img {
+          img {
+            border-radius: 10px;
+
+            @media(max-width: 767px){
+              width: 100%;
+              margin-bottom: 15px;
+              display: block;
+            }
+          }
+        }
+
+
+        .text {
+          padding: 0 0 0 15px;
+          p {
+            font-family: 'Metropolis-Medium';
+            font-size: 14px;
+            color: #7087ff;
+          }
+          h3 {
+            font-family: 'Metropolis-Bold';
+            font-size: 20px;
+            color: #333;
+            padding: 10px 0 60px 0;
+          }
+          a{
+           span {
+            font-family: 'Metropolis-Bold';
+            font-size: 14px;
+            color: #7087ff;
+            padding-left: 5px;
+           }
+  
+            i {
+              transform: rotate(90deg);
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .resources-all{
+    padding: 80px 0;
+    background: url(../images/resources/bg-capsul.png) no-repeat center center/cover;
+
+    .card {
+      box-shadow: 3px 0 31px rgba(0,0,0, .10);
+      border-color: transparent;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+
+      .main-img {
+        img {
+          border-radius: 10px;
+        }
+      }
+
+      .card-body{
+        .text {
+          p {
+            font-family: 'Metropolis-Medium';
+            font-size: 14px;
+            color: #7087ff;
+          }
+          h3 {
+            font-family: 'Metropolis-Bold';
+            font-size: 18px;
+            color: #333;
+            padding: 5px 0 40px 0;
+          }
+          a{
+           span {
+            font-family: 'Metropolis-Bold';
+            font-size: 14px;
+            color: #7087ff;
+            padding-left: 5px;
+           }
+  
+            i {
+              transform: rotate(90deg);
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
